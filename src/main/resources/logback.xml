@@ -1,9 +1,9 @@
 <configuration>
 
     <appender name="systemRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>logs/logs.log</file>
+        <file>logs/leetcode.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>logs/logs.%d{yyyy-MM-dd, UTC}.log</fileNamePattern>
+            <fileNamePattern>logs/leetcode.%d{yyyy-MM-dd, UTC}.log</fileNamePattern>
             <maxHistory>7</maxHistory>
         </rollingPolicy>
         <encoder>
