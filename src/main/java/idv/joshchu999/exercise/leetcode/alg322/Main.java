@@ -6,6 +6,8 @@ package idv.joshchu999.exercise.leetcode.alg322;
 public class Main {
     public static void main(String[] args) {
 
+        // You can not use greedy.
+
         Solution solution = new Solution();
 
         int[] coins = null;
@@ -55,9 +57,6 @@ public class Main {
         expected = 20;
         answer = solution.coinChange(coins, amount);
         System.out.println(String.format(format, coins, amount, expected, answer));
-
-
-
 
     }
 }
