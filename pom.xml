@@ -41,7 +41,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>idv.joshchu999.exercise.leetcode.algmonopoly.Main</mainClass>
+                            <mainClass>idv.joshchu999.exercise.leetcode.alg395.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
