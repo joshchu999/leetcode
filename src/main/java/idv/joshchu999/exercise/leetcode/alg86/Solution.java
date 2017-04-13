@@ -25,7 +25,6 @@ public class Solution {
                         pivotJ.next = target.next;
                         target.next = head;
                         head = target;
-                        pivotI = target;
                     } else {
                         if (pivotI == pivotJ) {
                             pivotJ = target;
@@ -34,8 +33,8 @@ public class Solution {
                             target.next = pivotI.next;
                             pivotI.next = target;
                         }
-                        pivotI = target;
                     }
+                    pivotI = target;
                 } else {
                     pivotJ = target;
                 }
