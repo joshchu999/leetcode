@@ -7,6 +7,8 @@ public class Solution {
 
     public int maxRotateFunction(int[] A) {
 
+        // F(k) = F(k - 1) + Sum(A) - n * A[n - k]
+
         int result = 0;
 
         int n = A.length;
