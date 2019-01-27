@@ -41,7 +41,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>idv.joshchu999.exercise.leetcode.alg396.Main</mainClass>
+                            <mainClass>idv.joshchu999.exercise.leetcode.alg815.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
