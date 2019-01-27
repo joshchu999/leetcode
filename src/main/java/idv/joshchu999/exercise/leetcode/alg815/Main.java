@@ -15,7 +15,7 @@ public class Main {
         int answer = 0;
         String format = "%d, %d";
 
-        // [2, 3, 6, 7], 7 -> [[7], [2, 2, 3]]
+        // [[1, 2, 7],[3, 6, 7]]
         routes = new int[][]{
                 {1, 2, 7},
                 {3, 6, 7}
